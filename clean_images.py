@@ -7,7 +7,7 @@ import sys
 def clean_image_data():
     print('\n\n############## Cleaning image data ##############\n') 
     source_folder = 'source_data/images'
-    target_folder = 'cleaned_data/cleaned_images'
+    target_folder = 'cleaned_data/images'
     final_size = 512
     
     no_of_images = len(os.listdir(source_folder))
@@ -60,8 +60,8 @@ def progress(count, total):
         sys.stdout.flush()
         
         
-        
-clean_image_data()  # Call the function to clean the image data
+if __name__ == "__main__":
+    clean_image_data()  # Call the function to clean the image data
 
     
 

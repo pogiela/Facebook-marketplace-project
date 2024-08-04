@@ -108,3 +108,7 @@ def clean_tabular_data():
     # products = RemoveRowsWithZeroPrice(products) <<-- Commented out because when the rows are removed, there are missing matches to the images dataset
     
     return products
+
+
+if __name__ == "__main__":
+    clean_tabular_data()  # Call the function to clean the tabular data
