@@ -1,0 +1,12 @@
+Pillow == 10.4.0
+fastapi == 0.112.0
+pydantic == 2.8.2
+numpy == 1.26.4
+boto3 == 1.24.9
+transformers
+python-multipart
+faiss_cpu==1.8.0.post1
+pandas==2.2.2
+uvicorn==0.30.5
+wheel==0.43.0
+setuptools==71.0.4
